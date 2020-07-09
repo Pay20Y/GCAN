@@ -2,7 +2,6 @@ import string
 import numpy as np
 import cv2
 import math
-import data_provider.TPS as tps
 import itertools
 
 def get_vocabulary(voc_type, EOS='EOS', PADDING='PAD', UNKNOWN='UNK'):
